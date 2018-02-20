@@ -1,16 +1,21 @@
 {
   "name": "p-calendar-ptbr",
-  "version": "0.0.0",
+  "version": "1.0.2",
   "license": "MIT",
+  "author": {
+    "name": "Daniel Oliveira",
+    "email": "gbdaniel_rj@hotmail.com",
+    "url": "http://olamundo-java.blogspot.com.br/"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "packagr": "ng-packagr -p ng-package.json"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
@@ -22,6 +27,8 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
+    "primeng": "^5.2.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
@@ -41,6 +48,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^2.0.0",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",

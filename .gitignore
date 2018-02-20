@@ -41,3 +41,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Arquivos tgz para deply no npm
+p-calendar-ptbr-*.tgz
+.ng_pkg_build/
