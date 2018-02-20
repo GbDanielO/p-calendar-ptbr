@@ -18,12 +18,12 @@ This is an alternative for PrimeNG's <b>p-calendar</b> and supports the most of 
 
  - Configure required styles at the styles section
 
- "styles": [
-   "../node_modules/font-awesome/css/font-awesome.min.css",
-   "../node_modules/primeng/resources/themes/omega/theme.css",
-   "../node_modules/primeng/resources/primeng.min.css",
-   //...
- ],
+ "styles": [ <br />
+   "../node_modules/font-awesome/css/font-awesome.min.css",<br />
+   "../node_modules/primeng/resources/themes/omega/theme.css",<br />
+   "../node_modules/primeng/resources/primeng.min.css",<br />
+   //...<br />
+ ],<br />
 
  - Install this component
 
@@ -33,17 +33,17 @@ This is an alternative for PrimeNG's <b>p-calendar</b> and supports the most of 
 
  import { PCalendarPtbrModule } from 'p-calendar-ptbr';
 
- @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    PCalendarPtbrModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+ @NgModule({<br />
+  declarations: [<br />
+    AppComponent<br />
+  ],<br />
+  imports: [<br />
+    BrowserModule,<br />
+    PCalendarPtbrModule<br />
+  ],<br />
+  providers: [],<br />
+  bootstrap: [AppComponent]<br />
+})<br />
 
 ## Basic usage (Uso básico)
 
