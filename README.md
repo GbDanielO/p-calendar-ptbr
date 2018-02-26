@@ -63,12 +63,16 @@ ou número você faça um binding nessa propriedade, passando-a dentro dos colch
 
 Desta forma, booleanos, objetos e outros, precisam que a propriedade esteja dentro de colchetes.
 
+Todas as propriedades suportadas estão no exemplo abaixo.
+
 It can be used like a original PrimeNG's <b>p-calendar</b>, the main different
 between these, is that the <b>p-calendar-ptbr</b> needs that when the property passed 
 is a value different of a string or number, it needs that you make a binding at this property,
 passing it inside of brackets '[ ]'.
 
 This way, booleans, objects, and any others, need tha the property is into a brackets.
+
+All properties supported are listed bellow.
 
 ### Example 1:
 
@@ -77,7 +81,8 @@ This way, booleans, objects, and any others, need tha the property is into a bra
           placeholder="Seu texto" clearButtonStyleClass="ui-secondary-button"
           todayButtonStyleClass="ui-secondary-button" maxDateCount="3" selectionMode="multiple"
           inputId="my-Date" [disabled]="false" [inline]="false" [minDate]="data"
-          [maxDate]="data" [disabledDates]="arrayDatas" disabledDays="[4,5]" [timeOnly]="false"&gt;
+          [maxDate]="data" [disabledDates]="arrayDatas" disabledDays="[4,5]" 
+          [timeOnly]="false" [required]="true"&gt;
 &lt;/p-calendar-ptbr&gt;
 
 ## How to get a returned value (Como pegar o valor retornado)

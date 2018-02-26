@@ -49,6 +49,8 @@ export class PCalendarPtbrComponent {
 
   @Input() timeOnly: boolean;
 
+  @Input() required: boolean;
+
   pt: any = Constants.pt_BR;
 
   data: Date;
@@ -69,6 +71,7 @@ export class PCalendarPtbrComponent {
     this.selectionMode = 'single';
     this.inline = false;
     this.timeOnly = false;
+    this.required = false;
    }
 
   ngDoCheck(){

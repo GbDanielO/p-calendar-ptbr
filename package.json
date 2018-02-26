@@ -1,11 +1,28 @@
 {
   "name": "p-calendar-ptbr",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "license": "MIT",
   "author": {
     "name": "Daniel Oliveira",
     "email": "gbdaniel_rj@hotmail.com",
     "url": "http://olamundo-java.blogspot.com.br/"
+  },
+  "bugs": {
+    "url": "https://github.com/GbDanielO/p-calendar-ptbr/issues"
+  },
+  "homepage": "https://github.com/GbDanielO/p-calendar-ptbr",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "p-calendar",
+    "p-calendar-ptbr",
+    "primeNG",
+    "datepicker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GbDanielO/p-calendar-ptbr"
   },
   "scripts": {
     "ng": "ng",
