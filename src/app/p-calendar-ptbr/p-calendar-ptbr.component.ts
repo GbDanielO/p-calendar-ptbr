@@ -1,6 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 import { Constants } from './../shared/Constants';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'p-calendar-ptbr',
@@ -59,7 +60,7 @@ export class PCalendarPtbrComponent {
 
   @Output() value = new EventEmitter();
 
-  constructor() {
+  constructor(private datePipe: DatePipe) {
     this.yearRange = new Date().getFullYear()+":"+new Date().getFullYear();
     this.showTime = false;
     this.showButtonBar = false;
@@ -72,13 +73,21 @@ export class PCalendarPtbrComponent {
     this.inline = false;
     this.timeOnly = false;
     this.required = false;
-   }
+  }
 
   ngDoCheck(){
     if(this.data != this.previousData){
       this.value.emit(this.data);
     }
       this.previousData = this.data;
+  }
+
+  formataData(evento : KeyboardEvent){
+    let temp: any = (<HTMLInputElement>evento.target).value;
+    (<HTMLInputElement>evento.target).value =
+    temp.length == 2 ? temp + '/' :
+    temp.length == 5 ? temp + '/' :
+    temp;
   }
 }
 

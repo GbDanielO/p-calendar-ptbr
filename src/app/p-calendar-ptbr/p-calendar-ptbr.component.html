@@ -4,5 +4,5 @@
 [todayButtonStyleClass]="todayButtonStyleClass" [maxDateCount]="maxDateCount" [selectionMode]="selectionMode"
 [inputId]="inputId" [disabled]="disabled" [inline]="inline" [minDate]="minDate" [maxDate]="maxDate"
 [disabledDates]="disabledDates" [disabledDays]="disabledDays" [timeOnly]="timeOnly" [(ngModel)]="data"
-[required]="required">
+[required]="required" (keyup)="formataData($event)">
 </p-calendar>

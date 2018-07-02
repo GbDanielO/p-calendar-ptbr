@@ -1,6 +1,6 @@
 {
   "name": "p-calendar-ptbr",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "author": {
     "name": "Daniel Oliveira",
@@ -18,7 +18,9 @@
     "p-calendar",
     "p-calendar-ptbr",
     "primeNG",
-    "datepicker"
+    "datepicker",
+    "calendar",
+    "pt-BR"
   ],
   "repository": {
     "type": "git",
